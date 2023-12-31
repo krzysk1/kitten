@@ -1,0 +1,22 @@
+<[file][][]
+    <[modelmanager][][]
+        <[pointer_list_tmuniverse][DynamicObjects][]
+
+            // trim
+            <[input_default][PitchTrim][]
+                <[float64][Value][-0.1]>
+            >
+
+            <[input_lever][MixtureLever][]
+                <[float64][Value][1.0]>
+            >
+            <[input_switch][LeftMagneto][]
+                <[float64][Value][1.0]>
+            >
+            <[input_switch][RightMagneto][]
+                <[float64][Value][1.0]>
+            >		
+
+        >
+    >
+>

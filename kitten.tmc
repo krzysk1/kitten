@@ -1,0 +1,39 @@
+<[file][][]
+    <[object][][]
+        <[int][Version][220]>
+        <[vec32array][ContactSpheres][ (0.253 0.939 -1.221 0.232) (0.253 -0.939 -1.221 0.232) (-4.231 0.000 -0.398 0.03) ]>
+        <[string8][ICAO][DART]>
+        <[string8][DisplayName][Dart Kitten II]>
+        <[string8][DisplayNameFull][Dart Kitten II]>
+        <[localized_text_list][Descriptions][]
+            <[localized_text][][]
+                <[string8][Language][en]>
+                <[string8][Text][The Dart Kitten was designed by A.R. Weyl in 1936 and built by Dart Aircraft Ltd at Dunstable, Bedfordshire. It is an ultra-light single-seat low-wing aircraft with a fixed tailskid undercarriage. The four examples built were powered by a variety of engines of between 27 h.p. and 40 h.p. Made by Krzysztof Kaniewski. 3D model: FTLX Designs.]>
+            >
+            <[localized_text][][]
+                <[string8][Language][de]>
+                <[string8][Text][Die Dart Kitten wurde 1936 von A.R. Weyl entworfen und von Dart Aircraft Ltd in Dunstable, Bedfordshire, gebaut. Es handelt sich um ein ultraleichtes Einzelsitz-Flugzeug mit einem festen Spornradfahrwerk und einem Tiefdecker-Design. Die vier gebauten Exemplare wurden von verschiedenen Motoren mit Leistungen zwischen 27 PS und 40 PS angetrieben. Hergestellt von Krzysztof Kaniewski. 3D-Modell: FTLX Designs.]>
+            >			
+        >
+        <[float64][MaximumTakeoffMass][390.1]>
+        <[float64][WingSpan]          [9.7]>
+        <[uint]   [Year]              [1937]>
+        <[uint]   [UnitsBuilt]        [4]>
+        <[uint]   [EngineCount]       [1]>
+        <[float64][EnginePower]       [30000]>
+        <[float64][MinimumAirspeed]   [19.0]>
+        <[float64][ApproachAirspeed]  [24.7]>
+        <[float64][CruiseAirspeed]    [36.0]>
+        <[float64][CruiseAltitude]    [3352.8]>
+        <[float64][CruiseSpeed]       [56.1]>
+        <[float64][MaximumAirspeed]   [59.0]>
+        <[float64][MaximumAltitude]   [6000.0]>
+        <[float64][MaximumSpeed]      [59.0]>
+        <[float64][MaximumRange]      [550000.0]>
+        <[tmvector2d][FlapAirspeedRange]   [  0.0  0.0 ]>		
+        <[tmvector2d][NormalAirspeedRange][ 19.0 37.5 ]>
+        <[tmvector2d][CautionAirspeedRange][ 37.5 41.5 ]>
+        <[string8][Tags][ airplane historical general_aviation ultralight piston gear taildragger ]>
+        <[string8][Pilot][pilot_peter]>
+    >
+>

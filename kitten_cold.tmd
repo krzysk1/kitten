@@ -1,0 +1,28 @@
+<[file][][]
+    <[modelmanager][][]
+        <[pointer_list_tmuniverse][DynamicObjects][]
+
+            <[multibody_joint][DriveShaft][]
+                <[float64][Velocity][0.0]>
+            >
+            <[input_lever][ThrottleInput][]
+                <[float64][Value][0.0]>
+            >
+            <[input_lever][MixtureLever][]
+                <[float64][Value][1.0]>
+            >
+            <[input_switch][LeftMagneto][]
+                <[float64][Value][0.0]>
+            >
+            <[input_switch][RightMagneto][]
+                <[float64][Value][0.0]>
+            >			
+            <[input_switch][FuelSelectorInput][]
+                <[float64][Value][0.0]>
+            >
+            <[input_switch][AvionicSwitch][]
+                <[float64][Value][0.0]>
+            >			
+        >
+    >
+>

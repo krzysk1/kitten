@@ -1,0 +1,23 @@
+<[file][][]
+    <[hints][][]
+        // Dart Kitten II
+        <[float64][MaximumTakeOffMass][390.1]>
+        <[float64][WingSpan][9.72]>
+        <[float64][WingArea][12.43]>
+        <[float64][HeightOffset][-1.390]>
+        <[float64][NoseWheelPositionX][0.256]>
+        <[float64][ApproachSpeed][24.7]>
+        <[float64][PatternSpeed][25.0]>
+        <[float64][InitialClimbSpeed][24.7]>
+        <[int][EngineCount][1]>
+        <[bool][Piston][true]>
+        <[bool][GeneralAviation][true]>
+        <[bool][TailDragger][true]>
+        <[bool][RudderTrimRequired][true]>
+        <[float64][RudderSteeringGain][3.0]>
+        <[float64][RudderCrossWind][1.0]>
+        <[float64][FlareHeightScaling][0.9]>
+        <[float64][FlareExpectedNoseDrop][0.3]>
+        <[float64][StarterMaximumTime][5.0]>
+    >
+>
