@@ -16,6 +16,8 @@ Use it at your own risk!
 
 # Resources
 
+Note by FTLX Designs:
+
 The Dart Kitten was designed by A.R. Weyl in 1936 and built by Dart Aircraft Ltd at Dunstable, Bedfordshire. It is an ultra-light single-seat low-wing aircraft with a fixed tailskid undercarriage. The four examples built were powered by a variety of engines of between 27 h.p. and 40 h.p.
 
 The Dart Kitten II G-AEXT received its authorisation to fly on 30 April 1937 and had a series of owners before being badly damaged in a crash at Willingale, Essex in November 1964. It was subsequently rebuilt and in 2009 was airworthy with a private owner near Aylesbury Buckinghamshire. As of 2012 it is based with the Real Aeroplane Company at Breighton near Selby in North Yorkshire.
@@ -40,7 +42,7 @@ Cruise speed: 83 mph (134 km/h, 72 kn)
 Range: 340 mi (550 km, 300 nmi)
 Service ceiling: 19,700 ft (6,000 m)
 
-Notes:
+
 This is a fantastic VFR platform which will enable enjoyable sightseeing (low and slow, at its finest), and the visual model is really nice to look at.  This is 100% vintage; tailskid, no brakes, and the radio is pretty basic; at the very least it should help you obtain the latest weather data for flight planning purposes.  If there is interest I will look to add a transponder to make it easier for online flying. To start the engine, turn on the fuel, click each of the the mags, and then touch the prop to start.  
 
 There is a tiny battery in the model to support the handheld radio, but otherwise this aircraft has no electrical system, and engine startup is plug-in controlled (technically as long as the generator is running, the radio will work indefinitely, which is unrealistic.  This will be addressed in a future update).
@@ -56,4 +58,3 @@ Thanks to Craig Richardson for providing the fantastic FSX model, which was real
 LEGAL
 
 This file is FREEWARE. It should not harm your computer, but you install it at your own risk. Feel free to copy, modify or distribute it, but if you do, please give me and the original author(s) credit for our modifications. You may not use it for any commercial purposes. 
- 
