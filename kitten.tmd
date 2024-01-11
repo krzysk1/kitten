@@ -222,15 +222,15 @@
                 <[string8][Body1][TailGear]>
                 <[tmvector3d][X0][0.0 1.0 0.0]>
                 <[tmvector3d][R0][-3.828 0.000000 -0.2562]>
-                <[float64][Kp][4000.0]>
-                <[float64][Kd][40.0]>
+                <[float64][Kp][5000.0]>
+                <[float64][Kd][50.0]>
                 <[uint32][Type][0]>
             >
             <[collisionhull][CollisionTailGear][]
                 <[string8][Body][TailGear]>
                 <[string8][Geometry][TailSkid]>
                 <[float64][K][30000.0]>
-                <[float64][D][300.0]>
+                <[float64][D][200.0]>
                 <[float64][StaticFrictionCoefficient][1.5]>
                 <[float64][KineticFrictionCoefficient][0.9]>
                 <[bool][NoCrash][true]>
@@ -578,7 +578,7 @@
                 <[float64array][StationLE]          [  -3.151 -3.168 -3.285 -3.347 ]>
                 <[float64array][StationTE]          [  -3.708 -4.259 -4.061 -4.020 ]>
                 <[float64array][StationZ]           [  0.043 0.043 0.043 0.043 ]>
-                <[float64array][StationIncidence]   [  0.017 0.017 0.017 0.017 ]>
+                <[float64array][StationIncidence]   [  0.0 0.0 0.0 0.0 ]>
                 <[uint32array][StationFlap]         [  1 1 1 0 ]>
                 <[float64array][StationFlapFraction][  0.25 0.50 0.50 0.00 ]>
                 <[float64][AspectRatioMultiplier][2.0]>
@@ -604,7 +604,7 @@
                 <[float64array][StationLE]          [  -3.347 -3.285 -3.168 -3.151 ]>
                 <[float64array][StationTE]          [  -4.020 -4.061 -4.259 -3.708 ]>
                 <[float64array][StationZ]           [  0.043 0.043 0.043 0.043 ]>
-                <[float64array][StationIncidence]   [  0.017 0.017 0.017 0.017 ]>
+                <[float64array][StationIncidence]   [  0.0 0.0 0.0 0.0 ]>
                 <[uint32array][StationFlap]         [  1 1 1 0 ]>
                 <[float64array][StationFlapFraction][  0.50 0.50 0.25 0.00 ]>
                 <[float64][AspectRatioMultiplier][2.0]>
@@ -1418,12 +1418,12 @@
 
             // balance indicator
             <[graphics_input][SlipSkidBallInput][]
-                <[uint32][InputID][SideslipAngle.Output]>
-                <[float64][Scaling][4.0]>
+                <[uint32][InputID][BalanceIndicatorDeviation.Output]>
+                <[float64][Scaling][-0.174533]>
             >
             <[graphics_linear_interpolation][SlipSkidBallMapping][]
                 <[string8][Input][SlipSkidBallInput.Output]>
-                <[tmvector2d][Map][(-1 -0.010472) (1 0.010472)]>
+                <[tmvector2d][Map][(-0.087266 -0.087266) (0.087266 0.087266)]>
             >
             <[hingedbodygraphics][BalanceIndicatorBall][]
                 <[uint32][PositionID][Fuselage.R]>
@@ -1431,10 +1431,8 @@
                 <[string8][GeometryList][ BallanceBall ]>
                 <[tmvector3d][Axis][-1.000000 0.000000 -0.000156]>
                 <[tmvector3d][Pivot][0.468962 0.000000 0.285889]>
-                <[float64][Scaling][-0.174533]>
                 <[float64][Offset][0.087266]>
-               // <[uint32][Input][SlipSkidBallMapping.Output]>
-                <[string8][InputID][BalanceIndicatorDeviation.Output]> // to be improved
+                <[uint32][Input][SlipSkidBallMapping.Output]>
             >
 
             // magnetic compass
