@@ -16,10 +16,10 @@
                 <[float64][Value][1.0]>
             >
             <[input_switch][LeftMagneto][]
-                <[float64][Value][0.0]>
+                <[float64][Value][1.0]>
             >
             <[input_switch][RightMagneto][]
-                <[float64][Value][0.0]>
+                <[float64][Value][1.0]>
             >	
 
             // trim
