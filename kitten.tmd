@@ -964,11 +964,10 @@
                 <[string8][Qualifiers][ normalized ]>
             >
 
-            // engine 36 h.p. Aeronca-J.A.P. J-99
+            // engine 36 h.p. Aeronca-J.A.P. J-99 36-40 hp (26.9-29.8 kW) at 2,400-2520 rpm
             <[engine2][Engine][]
                 <[string8][InputThrottle]    [ServoThrottle.Output]>
                 <[string8][InputMixture]     [MixtureLever.Output]>
-                //<[string8][InputFuelPressure][EngineFuelControl.OutputPressure]>
                 <[string8][InputLeftMagneto] [LeftMagneto.Output]>
                 <[string8][InputRightMagneto][RightMagneto.Output]>
                 <[string8][RotationSpeed]    [DriveShaft.RotationSpeed]>
@@ -978,10 +977,10 @@
                 <[float64][InputTemperature] [EngineHousing.Output]>
                 <[float64][AddHeat]          [EngineHousing.AddHeat]>
                 <[float64][RotationInertia][1.1776]>
-                <[float64][ThrottleIdle][0.12]>
+                <[float64][ThrottleIdle][0.17]>
                 <[float64][Friction][40.0]>
                 <[float64][RatedRotationSpeed][282.7]>
-                <[float64][RatedPower][30000]>
+                <[float64][RatedPower][29800]>
                 <[float64][Displacement][0.00186]>
             >
             <[air_flow][CoolingAir][]
@@ -1885,16 +1884,16 @@
                 <[string8][Graphics0][LeftWing]>
                 <[string8][Graphics1][LeftAileron]>
                 <[string8][GeometryList][ LeftAileronDownLink ]>
-                <[tmvector3d][Joint0][-0.292400 3.16800 -0.505100]>
-                <[tmvector3d][Joint1][-0.563859 3.183070 -0.598161]>
+                <[tmvector3d][Joint0][-0.3329 3.17500 -0.5173]>
+                <[tmvector3d][Joint1][-0.5638 3.18307 -0.5981]>
                 <[uint32][AttachTo][1]>
             >
             <[linkagegraphics][LinkAileronUpperLeft][]
                 <[string8][Graphics0][LeftWing]>
                 <[string8][Graphics1][LeftAileron]>
                 <[string8][GeometryList][ LeftAileronUpLink ]>
-                <[tmvector3d][Joint0][-0.277400 3.16900 -0.409100]>
-                <[tmvector3d][Joint1][-0.564071 3.173637 -0.398371]>
+                <[tmvector3d][Joint0][-0.3325 3.17500 -0.4032]>
+                <[tmvector3d][Joint1][-0.5640 3.17363 -0.3983]>
                 <[uint32][AttachTo][1]>
             >
             // right wing
@@ -1911,23 +1910,23 @@
                 <[string8][GeometryList][ RightAileron ]>
                 <[uint32][InputID][ServoRightAileron.Output]>
                 <[tmvector3d][Axis][0.135806 -0.986176 0.094935]>
-                <[tmvector3d][Pivot][-0.462777 -3.342747 -0.463202]>
+                <[tmvector3d][Pivot][-0.4627 -3.342747 -0.46320]>
                 <[float64][Scaling][1.0]>
             >
             <[linkagegraphics][LinkAileronLowerRight][]
                 <[string8][Graphics0][RightWing]>
                 <[string8][Graphics1][RightAileron]>
                 <[string8][GeometryList][ RightAileronDownLink ]>
-                <[tmvector3d][Joint0][-0.292400 -3.16800 -0.505100]>
-                <[tmvector3d][Joint1][-0.563859 -3.183070 -0.598161]>
+                <[tmvector3d][Joint0][-0.3329 -3.17500 -0.5173]>
+                <[tmvector3d][Joint1][-0.5638 -3.18307 -0.5981]>
                 <[uint32][AttachTo][1]>
             >
             <[linkagegraphics][LinkAileronUpperRight][]
                 <[string8][Graphics0][RightWing]>
                 <[string8][Graphics1][RightAileron]>
                 <[string8][GeometryList][ RightAileronUpLink ]>
-                <[tmvector3d][Joint0][-0.277400 -3.16900 -0.409100]>
-                <[tmvector3d][Joint1][-0.564071 -3.173645 -0.398371]>
+                <[tmvector3d][Joint0][-0.3325 -3.17500 -0.4032]>
+                <[tmvector3d][Joint1][-0.5640 -3.17364 -0.3983]>
                 <[uint32][AttachTo][1]>
             >
 
