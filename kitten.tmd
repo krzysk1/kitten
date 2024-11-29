@@ -31,7 +31,7 @@
             <[camera_head][CameraPilot][]
                 <[string8][Tags][cockpit pilot]>
                 <[string8][Body][Fuselage]>
-                <[tmvector3d][R0][ -0.259 0.000 0.213 ]>
+                <[tmvector3d][R0][ -0.29 0.000 0.22 ]>
                 <[tmvector3d][Direction][ 1.0 0.0 0.0 ]>
                 <[float64][Kf][40.0]>
                 <[float64][Df][1.00]>
@@ -44,24 +44,28 @@
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 0.761 4.860 -0.254 ]>
                 <[tmvector3d][Direction][ -0.1665 -0.9847 0.0514 ]>
+                <[bool][InCockpit][false]>
             >
             <[camera][CameraRightWing][]
                 <[string8][Tags][right wing]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -2.862 -4.860 0.972 ]>
                 <[tmvector3d][Direction][ 0.4919 0.8537 -0.1708 ]>
+                <[bool][InCockpit][false]>
             >
             <[camera][CameraNose][]
                 <[string8][Tags][nose]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ 2.761 0.380 0.380 ]>
                 <[tmvector3d][Direction][ -0.9823 -0.1324 -0.1324 ]>
+                <[bool][InCockpit][false]>
             >
             <[camera][CameraTail][]
                 <[string8][Tags][tail]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -3.862 0.000 1.621 ]>
                 <[tmvector3d][Direction][ 0.9199 0.0000 -0.3922 ]>
+                <[bool][InCockpit][false]>
             >
 
             // cameras end
