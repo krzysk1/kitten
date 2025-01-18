@@ -34,8 +34,7 @@
         <[float64][MaximumAltitude]   [6000.0]>
         <[float64][MaximumSpeed]      [59.0]>
         <[float64][MaximumRange]      [550000.0]>
-        <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
-        <[vector2_float64][NormalAirspeedRange][ 19.0 37.5 ]>
+        <[vector2_float64][NormalAirspeedRange] [ 19.0 37.5 ]>
         <[vector2_float64][CautionAirspeedRange][ 37.5 41.5 ]>
         <[string8][Tags][ airplane historical general_aviation ultralight piston gear tailgear ]>
         <[string8][Pilot][pilot_peter]>

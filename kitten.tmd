@@ -23,7 +23,6 @@
             // cameras start
 
             <[camera][CameraFollow][]
-                <[string8][Description][Behind aircraft]>
                 <[string8][Body][Fuselage]>
                 <[tmvector3d][R0][ -9.7 0.0 1.2 ]>
                 <[tmvector3d][Direction][1.0 0.0 0.0]>
