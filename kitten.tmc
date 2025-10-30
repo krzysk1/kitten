@@ -15,6 +15,18 @@
                 <[string8][Text][Die Dart Kitten wurde 1936 von A.R. Weyl entworfen und von Dart Aircraft Ltd in Dunstable, Bedfordshire, gebaut. Es handelt sich um ein ultraleichtes Einzelsitz-Flugzeug mit einem festen Spornradfahrwerk und einem Tiefdecker-Design. Die vier gebauten Exemplare wurden von verschiedenen Motoren mit Leistungen zwischen 27 PS und 40 PS angetrieben. Hergestellt von Krzysztof Kaniewski. 3D-Modell: FTLX Designs.]>
             >
             <[localized_text][element][2]
+                <[string8u][Language][fr]>
+                <[string8][Text][Le Dart Kitten a été conçu par A.R. Weyl en 1936 et construit par Dart Aircraft Ltd à Dunstable, dans le Bedfordshire. Il s'agit d'un avion ultra-léger monoplace à aile basse, équipé d'un train d'atterrissage à patin arrière fixe. Les quatre exemplaires construits étaient équipés de différents moteurs d'une puissance comprise entre 27 et 40 chevaux. Réalisé par Krzysztof Kaniewski. Modèle 3D : FTLX Designs.]>
+			>
+            <[localized_text][element][3]
+                <[string8u][Language][es]>
+                <[string8][Text][El Dart Kitten fue diseñado por A.R. Weyl en 1936 y construido por Dart Aircraft Ltd en Dunstable, Bedfordshire. Se trata de un avión ultraligero monoplaza de ala baja con un tren de aterrizaje fijo con patín de cola. Los cuatro ejemplares construidos estaban propulsados por diversos motores de entre 27 y 40 CV. Realizado por Krzysztof Kaniewski. Modelo 3D: FTLX Designs.]>
+			>
+            <[localized_text][element][4]
+                <[string8u][Language][it]>
+                <[string8][Text][Il Dart Kitten è stato progettato da A.R. Weyl nel 1936 e costruito dalla Dart Aircraft Ltd a Dunstable, nel Bedfordshire. Si tratta di un velivolo ultraleggero monoposto ad ala bassa con carrello di atterraggio fisso a pattino. I quattro esemplari costruiti erano alimentati da una varietà di motori con potenza compresa tra 27 e 40 CV. Realizzato da Krzysztof Kaniewski. Modello 3D: FTLX Designs.]>
+			>
+            <[localized_text][element][5]
                 <[string8u][Language][pl]>
                 <[string8][Text][Dart Kitten został zaprojektowany przez A.R. Weyl'a w 1936 roku i zbudowany przez Dart Aircraft Ltd w Dunstable, Bedfordshire. Jest to ultralekki jednomiejscowy dolnopłat ze stałym podwoziem ogonowym. Cztery zbudowane egzemplarze były napędzane różnymi silnikami o mocy od 27 KM do 40 KM. Wykonane przez Krzysztofa Kaniewskiego. Model 3D: FTLX Designs.]>
 			>
@@ -34,6 +46,7 @@
         <[float64][MaximumAltitude]   [6000.0]>
         <[float64][MaximumSpeed]      [59.0]>
         <[float64][MaximumRange]      [550000.0]>
+        <[vector2_float64][FlapAirspeedRange]   [  0.0  0.0 ]>
         <[vector2_float64][NormalAirspeedRange] [ 19.0 37.5 ]>
         <[vector2_float64][CautionAirspeedRange][ 37.5 41.5 ]>
         <[string8][Tags][ airplane historical general_aviation ultralight piston gear tailgear ]>
